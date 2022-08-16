@@ -1,13 +1,19 @@
-package com.Forloopconcept;
+package Helloworld;
 public class Main {
     public static void main(String[] args)
     {
-        int a=10, b=20, c=25;
+        for (int i = 0; i <= 5; i++)
         {
-        System.out.println(b-- + c++ + ++a + --b + a++ + ++a);
-            System.out.println(++b + a-- - c++ + ++a + ++b);
-                         //(20+25+11+18+11+13)=98
-                        // (19+13-26+13+20)=39
-    }
-    }
+            for (int j = 0; j <= i; j++)
+            {
+                System.out.print(j + "    ");
+            }
+            {
+                System.out.println();
+            }
+        }
 }
+}
+
+
+
